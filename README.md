@@ -44,3 +44,5 @@ Output directory: dist
 
 - Sem Supabase: usa `localStorage`
 - Com Supabase: login por e-mail e sincronização na nuvem
+
+
