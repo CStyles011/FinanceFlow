@@ -20,7 +20,7 @@ export function AuthPage() {
       mode === 'login' ? await signIn(email, password) : await signUp(email, password);
 
     setLoading(false);
-    setMessage(result.error ?? result.message ?? '');
+    setMessage(result.error ?? '');
   };
 
   return (
